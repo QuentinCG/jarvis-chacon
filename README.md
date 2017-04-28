@@ -1,14 +1,3 @@
-<!---
-IMPORTANT
-=========
-This README.md is displayed in the WebStore as well as within Jarvis app
-Please do not change the structure of this file
-Fill-in Description, Usage & Author sections
-Make sure to rename the [en] folder into the language code your plugin is written in (ex: fr, es, de, it...)
-For multi-language plugin:
-- clone the language directory and translate commands/functions.sh
-- optionally write the Description / Usage sections in several languages
--->
 ## Description
 This plugin uses mochad to control your X10 devices.
 It will allow you to simply turn on and off your devices.
@@ -52,4 +41,4 @@ See https://arno0x0x.wordpress.com/2015/04/02/rf433-outlet/
    ```
 
 ## Author
-[Lusitanos67](https://github.com/Lusitanos67)
+Forked from [Lusitanos67](https://github.com/Lusitanos67/jarvis-chacon)
