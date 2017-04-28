@@ -4,6 +4,9 @@
 #  - Wiring Pi install: http://wiringpi.com/download-and-install/
 #  - Chacon sender program: https://arno0x0x.wordpress.com/2015/04/02/rf433-outlet/
 
+# Install G++ (compiler)
+[[ -z $(which g++) ]] && sudo apt-get --yes --force-yes install g++
+
 # Check if Wiring Pi already installed
 result_wiring_pi_installed=`gpio -v`
 if [[ ! $result_wiring_pi_installed =~ "gpio version:" ]]; then
@@ -17,9 +20,6 @@ if [[ ! $result_wiring_pi_installed =~ "gpio version:" ]]; then
   /tmp/wiringPi/build
   rm -rf /tmp/wiringPi
 fi
-
-# Install G++ (compiler)
-[[ -z $(which g++) ]] && sudo apt-get --yes --force-yes install g++
 
 # Compile "chacon_send" program
 g++ -o chacon_send chacon_send.cpp -lwiringPi
