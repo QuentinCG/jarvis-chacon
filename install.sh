@@ -6,7 +6,7 @@
 
 # Check if Wiring Pi already installed
 result_wiring_pi_installed=`gpio -v`
-if [[ ! $result_wiring_pi =~ "gpio version:" ]]; then
+if [[ ! $result_wiring_pi_installed =~ "gpio version:" ]]; then
   # Delete potential previous version of Wiring Pi (this should never happens)
   sudo apt-get purge wiringpi
   hash -r
