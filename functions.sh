@@ -13,6 +13,7 @@ pg_chacon_turn () {
     local sdevice="$(jv_sanitize "$device" ".*")"
     if [[ "$order" =~ .*$sdevice.* ]]; then
       local address="$(echo $pg_chacon_config | jq -r ".devices[] | select(.name==\"$device\") | .address")"
+      local dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
       if [[ ! $3 =~ "True" ]]; then
         say "$(pg_chacon_lg "switching_$1" "$2")"
       fi
