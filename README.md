@@ -7,13 +7,13 @@ Control DIO Wireless wall switches (ON/OFF) with <a target="_blank" href="http:/
 
 ## Usage
 ```
-You: Allume la cuisine
-Jarvis: Cuisine allumée
-[Prise electrique de la cuisine allumée]
+You: Allume la prise 1
+Jarvis: Prise 1 allumée
+[Prise electrique "Prise 1" allumée]
 
-You: Eteins la cuisine
-Jarvis: Cuisine éteinte
-[Prise electrique de la cuisine éteinte]
+You: Eteins la prise 1
+Jarvis: Prise 1 éteinte
+[Prise electrique "Prise 1" éteinte]
 ```
 
 
