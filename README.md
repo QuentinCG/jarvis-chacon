@@ -25,7 +25,7 @@ Jarvis: Cuisine éteinte
 
 2) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-chacon```
 
-3) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-achacon/blob/master/config.sh">configuration file</a> to match your requirements (use any chacon number if you don't have remote controler).
+3) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-chacon/blob/master/config.sh">configuration file</a> to match your requirements (use any chacon number if you don't have remote controler).
 
 4) Pair the wireless wall switches with your Raspberry Pi (to do with all your switches): Connect your wireless wall switch and in the 5 seconds, send a "ON" command to the switch (`Allume la cuisine` for example)
 
